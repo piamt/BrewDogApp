@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.5.1)
+  - BNRDeferred (3.1.2)
+  - BrewDogCore (0.0.1):
+    - BSWFoundation
+    - RealmSwift
+  - BSWFoundation (1.3.0):
+    - Alamofire (~> 4.5.1)
+    - BNRDeferred (= 3.1.2)
+    - KeychainAccess (~> 3.1.0)
+  - Cartography (2.0.0)
+  - KeychainAccess (3.1.0)
+  - Realm (2.10.2):
+    - Realm/Headers (= 2.10.2)
+  - Realm/Headers (2.10.2)
+  - RealmSwift (2.10.2):
+    - Realm (= 2.10.2)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
+
+DEPENDENCIES:
+  - BrewDogCore (from `Core`)
+  - Cartography
+  - SDWebImage
+
+EXTERNAL SOURCES:
+  BrewDogCore:
+    :path: Core
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  BNRDeferred: e3cdbffe7527482fb9908b79dd0a18d2b450fb10
+  BrewDogCore: e98d3cda3f09b8207a175fb72526798f631fb7c4
+  BSWFoundation: d01453e6312d9984ce0ddc9e10ab0423213f0a30
+  Cartography: d295eb25ab54bb57eecd8c2f04e9648c850f1281
+  KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
+  Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
+  RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+
+PODFILE CHECKSUM: 4baa85e0de06166246c2e331e506082c8459ad68
+
+COCOAPODS: 1.2.0.beta.3
